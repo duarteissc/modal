@@ -1,0 +1,113 @@
+    <div className="modal-container">
+            <div
+                className="backgroundT"
+                onClick={() => {
+                    setShowModal(false);
+                }}
+            ></div>
+            <div className="header_modal">
+                <div className="closeModal">
+                    <div
+                        className="iconClose"
+                        onClick={() => {
+                            setShowModal(false);
+                        }}
+                    >
+                        <img src={icnProductMail} class="icnproductmail"></img>
+                    </div>
+                </div>
+                <div className="modal-content">
+                    <div className="form-container">
+                        <div className="txtcenter">
+                            <span class="Promociones-bancaria">
+                                <div>
+                                    <span class="text-style-1">Promociones bancarias</span>
+                                </div>
+                                Conoce las promociones que tu tarjeta tiene para ti
+                            </span>
+                        </div>
+                        <div class="cards">
+                            <div class="Rectangle-Copy-3">
+                                <div class="Rectangle-Copy-3-props">
+                                    <img src={groupd31} class="typegroup31" />
+                                </div>
+                            </div>
+                            <div class="card01">
+                                <div class="imgdentro">
+                                    <img src={imgtaz} class="imgcardtype1"></img>
+                                </div>
+
+                                <div class="content-item">
+                                    <div class="textprimary">
+                                        <span class="porcentajecard">10%</span>
+                                        <span class="de-descuento-directo">de descuento directo</span>
+                                    </div>
+                                    <div class="Rectangle-Copy-17"></div>
+                                    <div class="txtcardt1">
+                                        <div class="Oval btnadd-type1">
+                                            <span class="btnadd">+</span>
+                                        </div>
+                                        <span class="-de-bonificacin">
+                                            <span class="text-style-1">10% de bonificación</span> en el estado de cuenta
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Rectangle-Copy-20"></div>
+                            <div class="card01">
+                                <div class="imgdentro">
+                                    <img src={imgtor} class="imgcardtype1"></img>
+                                </div>
+                                <div class="content-item">
+                                    <div class="textprimary">
+                                        <span class="porcentajecard">10%</span>
+                                        <span class="de-descuento-directo">de descuento directo</span>
+                                    </div>
+                                    <div class="Rectangle-Copy-17"></div>
+                                    <div class="txtcardt1">
+                                        <div class="Oval btnadd-type2">
+                                            <span class="btnadd">+</span>
+                                        </div>
+                                        <span class="-de-bonificacin">
+                                            <span class="text-style-1">10% de bonificación</span> en el estado de cuenta
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="Rectangle-Copy-3">
+                                <div class="Rectangle-Copy-3-props">
+                                    <img src={bitMap} class="typegroup31" />
+                                </div>
+                            </div>
+                            <div class="card01">
+                                <div class="imgdentro">
+                                    <img src={imgcit} class="imgcardtype1"></img>
+                                </div>
+                                <div class="content-item">
+                                    <div class="textprimary">
+                                        <span class="porcentajecard">10%</span>
+                                        <span class="de-descuento-directo">de descuento directo</span>
+                                    </div>
+                                    <div class="Rectangle-Copy-17"></div>
+                                    <div class="txtcardt1">
+                                        <div class="Oval btnadd-type3">
+                                            <span class="btnadd">+</span>
+                                        </div>
+                                        <span class="-de-bonificacin">
+                                            <span class="text-style-1">10% de bonificación</span> en el estado de cuenta
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-text-popup">
+                            <span class="Consulta-todas-las-p">
+                                <span class="text-style-1">Consulta todas las</span>
+                                <span class="text-style-2">promociones bancarias</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
