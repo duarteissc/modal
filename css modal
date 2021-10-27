@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.backgroundT {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.modal-container {
+    position: relative;
+}
+
+.header_modal {
+    position: fixed;
+    width: 901px;
+    border-radius: 4px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+}
+
+.closeModal {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+    padding: 16px 16px 0 0;
+    cursor: pointer;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modal-content .form-container {
+    padding: 30px;
+    background-color: #fff;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.title {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 16px 70px 8px 70px;
+}
+
+.text {
+    color: #666666;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    padding: 0 30px 0 30px;
+}
+
+.text p {
+    margin: 0;
+}
+
+.text span {
+    font-weight: bold;
+}
+
+.text .text1 {
+    margin-bottom: 20px;
+}
+
+.form {
+    flex: 1;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 24px;
+}
+
+.fieldForm {
+    position: relative;
+}
+
+.fieldForm input {
+    flex: 0 0 78%;
+    padding: 11px;
+    border: 1px solid #979797;
+    font-size: 14px;
+    border-radius: 30px 27px 27px 25px;
+    width: 336px;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.fieldForm input:focus {
+    outline: none;
+}
+
+.fieldForm .check {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+}
+
+.form button {
+    border-radius: 24px;
+    background-color: #da291c;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 336px;
+    height: 40px;
+    border-color: #da291c;
+}
+
+.disabled {
+    opacity: 0.5;
+}
+
+.Promociones-bancaria {
+    height: 55px;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666;
+}
+.txtcenter {
+    padding: 35px;
+    text-align: center;
+}
+.Promociones-bancaria .text-style-1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+    width: 237px;
+    height: 284px;
+    padding: 7px 25px 33px 26px;
+    border-radius: 8px;
+    border: solid 1px #d5d5d5;
+    background-color: #f5f5f5;
+}
+
+.Consulta-todas-las-p {
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0094a2;
+}
+.Consulta-todas-las-p .text-style-1 {
+    color: #666;
+}
+.text-style-2 {
+    cursor: pointer;
+    margin-left: 4px;
+    text-decoration: underline;
+}
+
+img.icnproductmail {
+    width: 24px;
+    height: 24px;
+    margin: 0 0 75px 5px;
+    padding: 5px;
+    object-fit: contain;
+}
+img.typegroup31 {
+    height: 20px;
+    margin-top: 6px;
+    margin-left: 15px;
+    object-fit: contain;
+}
+.Rectangle-Copy-3 {
+    display: none;
+}
+.Rectangle-Copy-3-props {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 15px;
+    height: 40px;
+    background-color: #f5f5f5;
+}
+.imgcardtype1 {
+    object-fit: contain;
+    width: 146px;
+    height: 146px;
+}
+.imgdentro {
+    display: flex;
+    justify-content: center;
+}
+
+/* cards contenido */
+.porcentajecard {
+    padding-top: 4px;
+    text-align: left;
+    font-family: 'Source Sans Pro';
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.6;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666;
+}
+
+.de-descuento-directo {
+    margin-left: 4px;
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    color: #666;
+    text-align: left;
+}
+.btnadd {
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    font-family: 'Source Sans Pro';
+    font-size: 35px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.69;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    width: 31px;
+}
+.Oval {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.btnadd-type1 {
+    background-color: #209e96;
+}
+.btnadd-type2 {
+    background-color: #fbb03c;
+}
+.btnadd-type3 {
+    background-color: #006eb3;
+}
+
+.-de-bonificacin {
+    font-family: 'Source Sans Pro';
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #666;
+}
+.-de-bonificacin .text-style-1 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Rectangle-Copy-17 {
+    width: 174px;
+    height: 1px;
+    margin: 13px 6px 10px;
+    transform: rotate(180deg);
+    background-color: #d5d5d5;
+}
+.txtcardt1 {
+    display: flex;
+}
+.textprimary {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.Rectangle-Copy-20 {
+    display: none;
+}
+
+
+@media (max-width: 550px) {
+    .header_modal {
+        width: 310px;
+    }
+    .Rectangle-Copy-3 {
+        display: block;
+    }
+    .closeModal {
+        padding: 10px 15px 0 0;
+    }
+    .form {
+        margin-bottom: 16px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .modal-content .form-container {
+        padding: 0px;
+        background-color: #fff;
+        flex: 1;
+        display: grid;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .Promociones-bancaria {
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+        text-align: center;
+        color: #666;
+    }
+    .Promociones-bancaria .text-style-1 {
+        font-size: 16px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.13;
+        letter-spacing: normal;
+        text-align: center;
+        color: #333;
+    }
+
+    .card01 {
+        display: flex;
+        flex-direction: row;
+        justify-content: initial;
+        margin: 0 15px;
+        width: initial;
+        height: 130px;
+        padding: initial;
+        border-radius: initial;
+        border: initial;
+        background-color: initial;
+    }
+    .de-descuento-directo,
+    .porcentajecard {
+        font-family: 'Source Sans Pro';
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+    }
+    .-de-bonificacin {
+        font-family: 'Source Sans Pro';
+        font-size: 13px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.15;
+        letter-spacing: normal;
+        text-align: right;
+        color: #666;
+    }
+    .-de-bonificacin .text-style-1 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .textprimary .porcentajecard {
+        padding-top: 0px;
+    }
+    .closeModal {
+        padding: 10px 15px 0 0;
+    }
+
+    .title {
+        font-size: 18px;
+        padding: 16px 40px 8px 40px;
+    }
+    .text {
+        margin-bottom: 16px;
+        font-size: 14px;
+        padding: 0 10px 0 10px;
+    }
+    .text .text1 {
+        margin-bottom: 15px;
+    }
+    .form {
+        margin-bottom: 16px;
+    }
+    .form input {
+        padding: 11px;
+        font-size: 14px;
+        width: 257px;
+        margin-bottom: 16px;
+    }
+    .form button {
+        font-size: 20px;
+        width: 257px;
+        height: 40px;
+    }
+    .textprimary {
+        justify-content: right;
+    }
+    .Rectangle-Copy-17 {
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+        height: 1px;
+        transform: rotate(180deg);
+        background-color: #d5d5d5;
+    }
+    .content-item {
+        padding: 5px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .Rectangle-Copy-20 {
+        height: 1px;
+        margin: 0px 20px;
+        transform: rotate(-180deg);
+        background-color: #d5d5d5;
+        display: block;
+    }
+
+    .Consulta-todas-las-p {
+        font-family: 'Source Sans Pro';
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0094a2;
+    }
+    .Consulta-todas-las-p .text-style-1 {
+        color: #666;
+    }
+    .footer-text-popup {
+        padding: 0px 30px 30px;
+    }
+}
